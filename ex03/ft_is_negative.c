@@ -6,7 +6,7 @@
 /*   By: nodywili <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 14:00:19 by nodywili          #+#    #+#             */
-/*   Updated: 2020/07/13 15:38:57 by nodywili         ###   ########.fr       */
+/*   Updated: 2020/07/18 08:17:54 by nodywili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,4 @@ void ft_is_negative(int n)
 			else{
 							ft_putchar('N');
 			}
-}
-
-int main()
-{
-	ft_is_negative(0);
-	return 0;
 }

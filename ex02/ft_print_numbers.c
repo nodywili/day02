@@ -6,13 +6,11 @@
 /*   By: nodywili <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 16:34:33 by nodywili          #+#    #+#             */
-/*   Updated: 2020/07/10 16:37:36 by nodywili         ###   ########.fr       */
+/*   Updated: 2020/07/18 08:16:31 by nodywili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-
-void ft_putchar(char c);
 
 void ft_print_numbers(void)
 {
@@ -30,8 +28,3 @@ void ft_putchar(char c)
 				write(1, &c, 1);
 }
 
-int main(void)
-{
-				ft_print_numbers();
-				return(0);
-}
